@@ -1,0 +1,25 @@
+# Ignore virtual environment folder
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables file
+.env
+
+# Django database
+db.sqlite3
+
+# Django migrations (optional, but recommended to ignore unless needed)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VS Code settings folder (optional)
+.vscode/
+
+# macOS system files (if you use mac)
+.DS_Store
+
+# Windows system files
+Thumbs.db
