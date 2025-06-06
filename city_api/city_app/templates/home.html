@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>City Finder</title>
+  <link rel="stylesheet" href="{% static 'city_app/css/style.css' %}">
+  
+</head>
+<body>
+
+<div class="container">
+  <h2>City Finder</h2>
+  <input type="text" id="countryInput" placeholder="Enter country name (e.g., India)">
+  <br>
+  <button id="getBtn">Get Cities</button>
+  <button id="downloadBtn">Get cities & Download CSV</button>
+
+  <p id="status">Enter a country and click "Get Cities".</p>
+  <ul id="cityList"></ul>
+</div>
+<script src="{% static 'city_app/js/script.js' %}"></script>
+</body>
+</html>
